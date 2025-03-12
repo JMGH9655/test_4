@@ -5,6 +5,8 @@ view: billion_orders {
     type: string
     sql: ${TABLE}.customer_id ;;
   }
+
+
   dimension: order_id {
     type: number
     # hidden: yes
