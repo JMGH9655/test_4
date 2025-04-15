@@ -1,6 +1,8 @@
 view: billion_orders {
   sql_table_name: demo_db.billion_orders ;;
 
+
+
   dimension: customer_id {
     type: string
     sql: ${TABLE}.customer_id ;;
